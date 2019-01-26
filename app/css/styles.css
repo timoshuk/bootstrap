@@ -96,4 +96,35 @@ body {
 .heder__button {
   border-radius: 20px; }
 
+.presents {
+  position: relative;
+  min-height: 506px; }
+
+.presents__content {
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  max-width: 700px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%); }
+
+.presents__title-container {
+  margin-bottom: 20%; }
+
+.presents-title {
+  font-size: 30px;
+  font-weight: 300;
+  text-transform: uppercase; }
+  .presents-title::first-letter {
+    font-weight: 700; }
+
+.presents-subtitle {
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: normal; }
+
+@media (max-width: 1000px) {
+  .presents-text {
+    font-size: 1.2rem; } }
+
 /*# sourceMappingURL=styles.css.map */
