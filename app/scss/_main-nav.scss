@@ -1,5 +1,26 @@
 .main-nav {
   font-family: var(--ff-second);
-  font-size: 5rem;
+  font-size: 3rem;
   font-weight: 700;
+}
+
+#navbar .nav-link {
+  color: #fff;
+
+  &:hover {
+    color: rgba(255, 255, 255, 0.5);
+  }
+}
+
+#navbar {
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.navbar-toggler {
+  z-index: 9999;
 }
