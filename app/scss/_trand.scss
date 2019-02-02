@@ -1,0 +1,13 @@
+.trand {
+  background: white;
+  background-image: url(../images/trand/image.jpg);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-size: contain;
+}
+
+@media (max-width: 768px) {
+  .trand {
+    background-image: none;
+  }
+}

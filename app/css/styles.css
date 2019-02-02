@@ -13,6 +13,9 @@ body {
   background: #eaeaeb;
   color: #fff; }
 
+.button-rounded {
+  border-radius: 20px; }
+
 .page-header {
   position: relative;
   width: 100%;
@@ -93,12 +96,8 @@ body {
     font-style: italic;
     text-decoration: underline; }
 
-.heder__button {
-  border-radius: 20px; }
-
 .presents {
-  position: relative;
-  min-height: 506px; }
+  position: relative; }
 
 .presents__content {
   position: absolute;
@@ -126,5 +125,16 @@ body {
 @media (max-width: 1000px) {
   .presents-text {
     font-size: 1.2rem; } }
+
+.trand {
+  background: white;
+  background-image: url(../images/trand/image.jpg);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-size: contain; }
+
+@media (max-width: 768px) {
+  .trand {
+    background-image: none; } }
 
 /*# sourceMappingURL=styles.css.map */
